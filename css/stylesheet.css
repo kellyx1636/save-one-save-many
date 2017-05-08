@@ -1,0 +1,30 @@
+background {
+    background-color: 2, 18, 87;
+}
+
+nav {
+    display: block;
+}
+
+.navbar {
+    display: none;
+}
+
+.navbar-fixed-bottom .dropdown .caret {
+    content: "";
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/*p {*/
+/*    font-family: fantasy;*/
+/*}*/
+
+
