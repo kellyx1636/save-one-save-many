@@ -27,4 +27,7 @@ nav {
 /*    font-family: fantasy;*/
 /*}*/
 
+* {
+ word-wrap: break-word;   
+}
 
