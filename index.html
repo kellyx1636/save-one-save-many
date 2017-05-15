@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Lines 10, 11, and 12 are from w3schools->-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
     <title>Save One Save Many</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
-    <link href="css/full-width-pics.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,19 +23,34 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="https://fonts.google.com/specimen/Quando" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Sansita" rel="stylesheet">
+    
+    <style>
+        background {
+            background-color: rgb(2, 18, 87);
+        }
+    </style>
+
 </head>
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <a class="navbar-brand" href="img/logo.png"></a>
+                
+                <!--<button type="button" class="navbar-toggle" data-toggle="collapse">-->
+                <!--    <span class="sr-only">Toggle navigation</span> <!--.sr-only is for hidding labels-->-->
+                <!--    <span class="icon-bar"></span>-->
+                <!--    <span class="icon-bar"></span>-->
+                <!--    <span class="icon-bar"></span>-->
+                <!--</button>-->
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+            <div class="navbar-container">
+                <ul class="navbar-nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="trafficking.html">Human Trafficking</a></li>
                     <li><a href="animals.html">Endangered Animals</a></li>
@@ -47,10 +62,12 @@
         </div>
         <!-- /.container -->
     </nav>
-
-    <div id="home">
-        <h1>Welcome!</h1>
-    </div>
+    <br><br>
+    <container id="welcome"> 
+        <div id="home">
+            <h1>Welcome!</h1>
+        </div>
+    </container>
 
 </body>
 

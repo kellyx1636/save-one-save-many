@@ -1,33 +1,115 @@
-background {
-    background-color: 2, 18, 87;
-}
-
 nav {
     display: block;
 }
 
-.navbar {
-    display: none;
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
 }
 
-.navbar-fixed-bottom .dropdown .caret {
-    content: "";
-    border-top: 0;
-    border-bottom: 4px dashed;
-    border-bottom: 4px solid;
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
 }
 
 .nav {
-  padding-left: 0;
-  margin-bottom: 0;
+  padding-left: 1000px;
+  margin-bottom: 1000px;
   list-style: none;
 }
 
-/*p {*/
-/*    font-family: fantasy;*/
+/** {*/
+/* word-wrap: break-word;   */
+/* background-color: rgb(2, 18, 87);*/
 /*}*/
 
-* {
- word-wrap: break-word;   
+#welcome #home{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 36px;
+    padding: 100px;
+    border: dashed;
 }
 
+.navbar-container .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: rgb(0, 0, );
+    display: inline-block;
+}
+
+background {
+    background-color: rgb(2, 18, 87);
+}
