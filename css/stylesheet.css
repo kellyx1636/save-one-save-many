@@ -98,6 +98,22 @@ nav {
     border: dashed;
 }
 
+#human-trafficking #trafficking #trafficking-title {
+    text-align: center;
+    background-color: rgb(155, 159, 255);
+    font-size: 36px;
+    padding: 10px;
+    border: dashed;
+}
+
+#animals #animals-title{
+    text-align: center;
+    background-color: rgb(155, 159, 255);
+    font-size: 36px;
+    padding: 10px;
+    border: dashed;
+}
+
 #contact {
     text-align: center;
     background-color: rgb(155, 159, 255);
