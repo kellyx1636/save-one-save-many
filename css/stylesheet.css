@@ -90,13 +90,25 @@ nav {
  background-color: rgb(255);
 }
 
-#welcome #home{
+#welcome #home {
     text-align: center;
     background-color: rgb(155, 159, 255);
     font-size: 36px;
     padding: 100px;
     border: dashed;
-    
+}
+
+#contact {
+    text-align: center;
+    background-color: rgb(155, 159, 255);
+    font-size: 36px;
+    padding: 10px;
+    border: dashed;
+}
+
+#contact-info {
+    text-align: center;
+    font-size: 30px;
 }
 
 .navbar-container .navbar-nav {
