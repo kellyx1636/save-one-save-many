@@ -9,7 +9,6 @@ nav {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
@@ -53,7 +52,6 @@ nav {
     .navbar-default {
         border: none;
         background: #fff;
-        background: rgba();
     }
 
     .nav>li>a {
@@ -87,14 +85,14 @@ nav {
   list-style: none;
 }
 
-/** {*/
-/* word-wrap: break-word;   */
-/* background-color: rgb(2, 18, 87);*/
-/*}*/
+* {
+ word-wrap: break-word;   
+ background-color: rgb(255);
+}
 
 #welcome #home{
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(155, 159, 255);
     font-size: 36px;
     padding: 100px;
     border: dashed;
