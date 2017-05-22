@@ -111,6 +111,24 @@ nav {
     font-size: 30px;
 }
 
+#help {
+    text-align: center;
+    background-color: rgb(155, 159, 255);
+    font-size: 36px;
+    padding: 10px;
+    border: dashed;
+}
+
+#help-info #humans {
+    text-align: center;
+    font-size: 16px;
+}
+
+#help-info #endangered-animals {
+    text-align: center;
+    font-size: 16px;
+}
+
 .navbar-container .navbar-nav {
     list-style-type: none;
     margin: 0;
